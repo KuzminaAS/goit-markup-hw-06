@@ -313,8 +313,8 @@
     </main>
 
     <footer class="footer-adress">
-      <div class="container">
-        <div class="footer-content">
+      <div class="container main-container">
+        
         <div class="container-adress">
           <a href="./index.html" class="site-logo">Web<span class="logo-secondary">Studio</span></a> 
           <address class="adress">
@@ -363,16 +363,22 @@
              </li>
            </ul>
           </div>
+     
+        <div class="form-field-subscribe"> 
+          <form action="#" class="form-subscribe">
+          <b class="subscribe">Подпишитесь на рассылку</b>
+          <input type="email" placeholder="E-mail" class="form-field-email">
+          <button type="button" class="button-send">Подписаться
+            <svg class="icon-send" width="24" height="24"> 
+              <use href="./images/symbol-defs.svg#icon-send"></use>
+            </svg>
+          </button>
+          
+        </form>
         </div>
-
-        <div> 
-          <input type="email" placeholder="">
-          <b></b>
-          <button></button>
-        </div>
-
       </div>
     </footer>
+
     <div class="backdrop is-hidden" data-modal >
       <div class="modal">
         <button type="button" class="btn" data-modal-close>
@@ -384,7 +390,7 @@
         
         <form action="#" class="contact-form">
          
-          <b class="call-to-action">Оставьте свои данные мы вам перезвоним</b>
+          <p class="call-to-action">Оставьте свои данные, мы вам перезвоним</p>
 
           <label  class="contact-label"> Имя
           <span class="container-contact-form"> 
@@ -420,17 +426,16 @@
           <textarea name="comment" class="field-for-comment" placeholder="Введите текст"></textarea>
          </span>
         </label>
-
-       
+        
+        <div class="container-policy">
          <input type="checkbox" class="checkbox visually-hidden" name="policy" value="policy" id="policy"/>
-         <label for="policy" class="contact-policy-label">Соглашаюсь с рассылкой и принимаю <a href="#" class="contact-form-link">Условия договора</a> 
+         <label for="policy" class="contact-policy-label">Соглашаюсь с рассылкой и принимаю <a href="#" class="contact-form-link"> <span class="contract-terms"> Условия договора </span> </a> 
          </label>
-       
+        </div>
 
         <div class="button-submit">
         <button type="submit" class="form-field-button">Отправить</button>
       </div>
-
       </form>
 
       </div>
