@@ -194,39 +194,6 @@ img {
   color: var(--feed-back-color);
 }
 
-.join {
-display: inline-block;
-padding-bottom: 20px;
-color:#FFFFFF;
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-}
-.social-link-change {
-  display: flex;  
-  align-items:center;  
-  justify-content: center;
-  width: 44px;
-  height: 44px;
-  background-color: rgba(255, 255, 255, 0.1);  border-radius: 50%;
-
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0s;
-}
-.social-link-change:not(last-child) {
-  margin-right: 10px;
-}
-.social-link-change:hover,
-.social-link-change:focus {
- background-color: #2196F3;
-}
-.social-icon-change {
-  fill: #FFFFFF;
-}
 
 .main-container {
   display: flex;
